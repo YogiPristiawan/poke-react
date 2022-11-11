@@ -1,9 +1,10 @@
+import SearchBar from './components/searchBar';
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/jsx-no-comment-textnodes */
 function App() {
   return (
-    <div className="px-[20%] pt-4">
-      <p className="font-bold">hello</p>
+    <div className="px-[10%] lg:px-[20%] pt-10 bg-gray-100">
+      <SearchBar />
     </div>
   );
 }
